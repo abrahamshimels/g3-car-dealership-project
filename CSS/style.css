@@ -1,0 +1,317 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #000000;
+}
+.header {
+  background-image: url("../Resource/Images/R35-GTR-EDIT-4K-ezgif.com-video-to-gif-converter.gif");
+  background-repeat: no-repeat;
+  height: 35rem;
+  background-position: center;
+  background-size: cover;
+}
+.top {
+  display: flex;
+  justify-content: space-evenly;
+}
+button {
+  border: none;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.header-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgba(89, 116, 136, 0.1);
+  backdrop-filter: blur(1px);
+  height: 50px;
+  z-index: 1000;
+}
+.header-nav a {
+  color: #fc4203;
+}
+.header-nav a:hover {
+  text-decoration: underline;
+  text-decoration-color: #ff5722;
+  text-decoration-thickness: 2px;
+}
+
+.contact-seller {
+  background-color: rgb(222, 142, 12);
+  border-radius: 3px;
+}
+a {
+  text-decoration: none;
+}
+.phone-wrapper {
+  display: flex;
+  margin: 10px;
+}
+
+.location-wrapper {
+  margin: 10px;
+}
+.phone-icon {
+  font-size: 24px;
+  color: rgb(185, 183, 183);
+  margin-right: 10px;
+  font-size: small;
+  margin: 10px;
+}
+.instagram-icon {
+  font-size: 24px;
+  color: #e1306c;
+  margin: 10px;
+  transition: color 0.3s ease;
+}
+
+.instagram-icon:hover {
+  color: #8c3064;
+}
+.social-icon.facebook {
+  color: #4979da;
+  font-size: 24px;
+  margin: 10px;
+  transition: color 0.3s ease;
+}
+
+.social-icon.facebook:hover {
+  color: #2c426a;
+}
+
+.social-icon.x {
+  color: #1da1f2;
+  font-size: 24px;
+  margin: 10px;
+  transition: color 0.3s ease;
+}
+
+.social-icon.x:hover {
+  color: #2d5c83;
+}
+.cart-icon {
+  font-size: 20px;
+  color: #4caf50;
+  transition: color 0.3s ease;
+}
+
+.cart-icon:hover {
+  color: #388e3c;
+}
+.heade-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 80%;
+}
+.heade-text h1 {
+  color: rgb(233, 42, 42);
+  font-size: clamp(12px, 3vw, 38px);
+}
+.heade-text .second {
+  color: white;
+}
+.lined {
+  border-left: 2px solid #f10303;
+  height: clamp(12px, 2vw, 38px);
+  margin: 10px;
+}
+.client-number {
+  display: flex;
+  color: rgb(241, 190, 172);
+  font-size: clamp(12px, 2vw, 28px);
+  font-weight: bolder;
+}
+.green-yellow {
+  color: rgb(229, 255, 0);
+}
+/* search */
+.car-search {
+  display: block;
+
+  max-width: 100%;
+  background-color: #c8ccce;
+  margin: -25px 30px 30px 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  resize: both;
+  overflow: auto;
+}
+fieldset {
+  border: none;
+  margin: 15px;
+}
+label {
+  color: #424445;
+}
+.small-input {
+  width: 80px;
+}
+.search-button {
+  padding: 5px 20px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(229, 161, 34);
+  max-width: 100%;
+}
+.model-header {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  max-width: 100%;
+  margin: 15px;
+}
+
+.model-header a {
+  color: #ff0000;
+}
+.flex {
+  display: flex;
+}
+.choose-option {
+  color: rgb(23, 10, 209);
+  text-decoration: underline;
+  text-decoration-color: #ff5722;
+  text-decoration-thickness: 2px;
+}
+.models {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.car-list {
+  position: relative;
+  background-color: #cfdaf0;
+  margin: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.car-list img {
+  width: 100%;
+  display: block;
+  position: relative;
+  z-index: 1;
+}
+.pentagon {
+  position: absolute;
+  top: 10px;
+  width: 60px;
+  height: 30px;
+  background-color: #fc8309;
+  clip-path: polygon(0% 0%, 100% 0%, 80% 50%, 100% 100%, 0% 100%);
+  z-index: 2;
+}
+.pentagon p {
+  padding: 5px;
+}
+.car-list-hover {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: 0.5s ease;
+}
+.car-list-hover-cart {
+  width: 200px;
+  margin: 20px auto;
+}
+.car-list-cart {
+  background-color: rgb(236, 179, 7);
+  color: black;
+  padding: 8px;
+}
+.car-list-cart {
+  font-size: 12px;
+  color: #232f24;
+  transition: transform 0.3s, color 0.3s;
+  cursor: pointer;
+}
+
+.car-list-cart:hover {
+  color: #ff5722;
+  transform: scale(1.2);
+}
+.car-list-contact {
+  background-color: rgb(59, 92, 238);
+  color: white;
+  padding: 8px;
+}
+.car-list-contact {
+  font-size: 12px;
+  color: #232f24;
+  transition: transform 0.3s, color 0.3s;
+  cursor: pointer;
+}
+
+.car-list-contact:hover {
+  color: #ff5722;
+  transform: scale(1.2);
+}
+.car-list-details {
+  display: flex;
+  justify-content: space-around;
+}
+.car-list-details .Details {
+  color: white;
+  font-size: large;
+}
+.car-list-details .Details:hover {
+  color: rgb(239, 72, 72);
+  text-decoration: underline;
+}
+.car-model-button {
+  position: absolute;
+  padding: 5px 20px 5px 35px;
+  width: 10em;
+  background-color: rgb(229, 161, 34);
+  left: 40%;
+  align-self: flex-end;
+  margin: -30px;
+}
+.car-model-button button {
+  background-color: rgb(229, 161, 34);
+  border: none;
+  margin: auto;
+}
+.model-name {
+  font-size: larger;
+  font-weight: bold;
+}
+s {
+  color: #a2a5a6;
+}
+.car-description {
+  margin: 0px 15px;
+}
+.car-description {
+  width: 100%;
+}
+.model-price {
+  font-size: larger;
+  font-weight: bold;
+}
+.rating span {
+  font-size: 2rem;
+  color: #f90;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+.rating span:hover,
+.rating span:hover ~ span {
+  color: #f90;
+}
+.car-list:hover .car-list-hover {
+  bottom: 0;
+  height: 100%;
+}
