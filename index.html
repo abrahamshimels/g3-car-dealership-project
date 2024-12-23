@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>G3 car dealership website</title>
+  <link rel="shortcut icon" href="./Resource/Images/logo.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="./CSS/style.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
+</head>
+<body>
+  <!-- header -->
+  <header class="header">
+    <div class="toggle-mobile">
+<nav class="header-nav">
+      <div class="logo-wrapper">
+<img src="./Resource/Images/logo.png" alt="logo" width="50">G3
+  </div>
+  <a href="./index.html">home</a>
+  <a href="./carModel.html" class="small-hidden">Models</a>
+  <a href="./service.html" class="small-hidden">Services</a>
+  <a href="./aboutUs.html" class="small-hidden">About Us</a>
+  <a href="./news.html" class="small-hidden">News</a>
+    <a href="./contact.html" class="small-hidden">Contact</a>  
+  <a href="./cart.html" >Cart</a>
+  <div class="dropdown small-block">
+      <i class="fas fa-bars menu-icon"></i>
+      <div class="dropdown-content">
+        <a href="./carModel.html" >Models</a>
+  <a href="./service.html">Services</a>
+  <a href="./aboutUs.html">About Us</a>
+  <a href="./news.html">News</a>
+    <a href="./contact.html">Contact</a> 
+      </div>
+    </div>
+</nav>
+
+    </div>
+    
+
+
+<div class="heade-text">
+  <h1 class="first">
+  Getting Your Dream <br>
+  <p class="second">
+  Car With Quality
+  </p></h1>
+<div class="client-number">
+  <p> <i class="green-yellow">900+</i> <br>
+  Happy Clients</p>
+  <p class="lined"></p>
+  <p><i class="green-yellow">500+</i> <br>  Available Cars</p> <p class="lined"></p>
+  <p><i class="green-yellow">10+</i> <br>Years Experience</p>
+</div>
+  </div>
+  </header>
+  <!-- cover -->
+  <section>
+
+  </section>
+  <!-- search -->
+  <section>
+    <form action="./search" method="GET" class="car-search">
+
+<fieldset class="small-input">
+  <label for="engine">Select Model:</label>
+  <br>
+  <select name="engine" id="engine">
+    <option value="Engine" name="Diesel">Engine</option>
+    <option value="Electric" name="Electric">Electric</option>
+    <option value="Hybrid" name="Hybrid">Hybrid</option>
+  </select>
+  </fieldset>
+  <fieldset>
+  <label for="status">pricing</label>
+  <br>
+  <select name="price" id="price">
+  <option value="2020" name="2020" >$5,000 - $15,000</option>
+<option value="2021" type="year" name="year"> $15,000 - $40,000</option>
+<option value="2022" name="2022" >$40,000 - $100,000</option>
+<option value="2023" name="2023" >$100,000+</option>
+</select>
+ </fieldset>
+ <fieldset>
+  <button type="submit" class="search-button">Search Car</button>
+</form>
+</fieldset>
+    </form>
+  </section>
+  <!-- model -->
+   <section >
+    <div class="model-header">
+<a href="./carModel.html#electric">Electric cars </a> 
+<a href="./carModel.html#engine">Engine cars  </a> 
+<a href="./carModel.html#hybrid">Hybrid Cars</a>
+</div>
+
+<div class="car-list-hover">
+  <div class="star-container">
+  <i class="fa fa-star"></i>
+</div>
+  <div class="car-list-hover-cart"><a href=""><i class="fa-solid fa-shopping-cart car-list-cart cart-icon">Add to Cart</i></a></div>
+  <div class="car-list-hover-cart"><a href="contact.html"><i class="fa-solid fas fa-headset car-list-contact">Contact Us</i></a></div>
+  <div class="car-list-details">
+    
+    <a href="#"><i class="fa-brands fa-instagram social-icon instagram-icon"></i></a>
+  <a href="#"><i class="fa-brands fa-facebook social-icon facebook"></i></a>
+  <a href="#" target="_blank">
+    <i class="fa-brands fa-twitter social-icon x"></i></a>
+  </div>
+</div>
+<div class="models">
+ <div class="car-list">
+<img src="./Resource/Images/model4.jpg" alt="car">
+<div class="pentagon"><p>-35%</p></div>
+<div class="car-description">
+  <p class="model-name">mercedes-benz C-class 2015</p>
+  <p class="model-price"><s>200,500</s> $150,00</p>
+  <p class="rating"> <span>★</span>
+  <span>★</span>
+  <span>★</span>
+  <span>★</span>
+  <span>★</span>(450 recommends)</p>
+</div>
+<div class="car-list-hover">
+  <div class="star-container">
+  <i class="fa fa-star"></i>
+</div>
+  <div class="car-list-hover-cart"><a href=""><i class="fa-solid fa-shopping-cart car-list-cart cart-icon">Add to Cart</i></a></div>
+  <div class="car-list-hover-cart"><a href="contact.html"><i class="fa-solid fas fa-headset car-list-contact">Contact Us</i></a></div>
+  <div class="car-list-details">
+    
+    <a href="#"><i class="fa-brands fa-instagram social-icon instagram-icon"></i></a>
+  <a href="#"><i class="fa-brands fa-facebook social-icon facebook"></i></a>
+  <a href="#" target="_blank">
+    <i class="fa-brands fa-twitter social-icon x"></i></a>
+  </div>
+</div>
+</div>
+<div class="car-list">
+<img src="./Resource/Images/model2.jpg" alt="car">
+<div class="pentagon"><p>-35%</p></div>
+<div class="car-description">
+  <p class="model-name">mercedes-benz C-class 2015</p>
+  <p class="model-price"><s>200,500</s> $150,00</p>
+  <p class="rating"> <span>★</span>
+  <span>★</span>
+  <span>★</span>
+  <span>★</span>
+  <span>★</span>(450 recommends)</p>
+</div>
+<div class="car-list-hover">
+  <div class="star-container">
+<i class="fa fa-star"></i>
+</div>
+  <div class="car-list-hover-cart"><a href=""><i class="fa-solid fa-shopping-cart car-list-cart cart-icon">Add to Cart</i></a></div>
+  <div class="car-list-hover-cart"><a href="contact.html"><i class="fa-solid fas fa-headset car-list-contact">Contact Us</i></a></div>
+  <div class="car-list-details">
+    
+    <a href="#"><i class="fa-brands fa-instagram social-icon instagram-icon"></i></a>
+  <a href="#"><i class="fa-brands fa-facebook social-icon facebook"></i></a>
+  <a href="#" target="_blank">
+    <i class="fa-brands fa-twitter social-icon x"></i></a>
+  </div>
+</div>
+<div class="car-list-hover">
+  <div class="star-container">
+<i class="fa fa-star"></i>
+</div>
+  <div class="car-list-hover-cart"><a href=""><i class="fa-solid fa-shopping-cart car-list-cart cart-icon">Add to Cart</i></a></div>
+  <div class="car-list-hover-cart"><a href="contact.html"><i class="fa-solid fas fa-headset car-list-contact">Contact Us</i></a></div>
+  <div class="car-list-details">
+    
+    <a href="#"><i class="fa-brands fa-instagram social-icon instagram-icon"></i></a>
+  <a href="#"><i class="fa-brands fa-facebook social-icon facebook"></i></a>
+  <a href="#" target="_blank">
+    <i class="fa-brands fa-twitter social-icon x"></i></a>
+  </div>
+</div>
+</div>
+<div class="car-list">
+<img src="./Resource/Images/model3.jpg" alt="car">
+<div class="pentagon"><p>-35%</p></div>
+<div class="car-description">
+  <p class="model-name">mercedes-benz C-class 2015</p>
+  <p class="model-price"><s>200,500</s> $150,00</p>
+  <p class="rating"> <span>★</span>
+  <span>★</span>
+  <span>★</span>
+  <span>★</span>
+  <span>★</span>(450 recommends)</p>
+</div>
+<div class="car-list-hover">
+  <div class="star-container">
+<i class="fa fa-star"></i>
+</div>
+  <div class="car-list-hover-cart"><a href=""><i class="fa-solid fa-shopping-cart car-list-cart cart-icon">Add to Cart</i></a></div>
+  <div class="car-list-hover-cart"><a href="contact.html"><i class="fa-solid fas fa-headset car-list-contact">Contact Us</i></a></div>
+  <div class="car-list-details">
+    
+    <a href="#"><i class="fa-brands fa-instagram social-icon instagram-icon"></i></a>
+  <a href="#"><i class="fa-brands fa-facebook social-icon facebook"></i></a>
+  <a href="#" target="_blank">
+    <i class="fa-brands fa-twitter social-icon x"></i></a>
+  </div>
+</div>
+</div>
+<div class="car-list">
+<img src="./Resource/Images/model4.jpg" alt="car">
+<div class="pentagon"><p>-35%</p></div>
+<div class="car-description">
+  <p class="model-name">mercedes-benz C-class 2015</p>
+  <p class="model-price"><s>200,500</s> $150,00</p>
+  <p class="rating"> <span>★</span>
+  <span>★</span>
+  <span>★</span>
+  <span>★</span>
+  <span>★</span>(450 recommends)</p>
+</div>
+<div class="car-list-hover">
+  <div class="star-container">
+  <i class="fa fa-star"></i>
+</div>
+  <div class="car-list-hover-cart"><a href=""><i class="fa-solid fa-shopping-cart car-list-cart cart-icon">Add to Cart</i></a></div>
+  <div class="car-list-hover-cart"><a href="contact.html"><i class="fa-solid fas fa-headset car-list-contact">Contact Us</i></a></div>
+  <div class="car-list-details">
+    
+    <a href="#"><i class="fa-brands fa-instagram social-icon instagram-icon"></i></a>
+  <a href="#"><i class="fa-brands fa-facebook social-icon facebook"></i></a>
+  <a href="#" target="_blank">
+    <i class="fa-brands fa-twitter social-icon x"></i></a>
+  </div>
+</div>
+</div>
+<div class="car-list">
+<img src="./Resource/Images/model5.avif" alt="car">
+<div class="pentagon"><p>-35%</p></div>
+<div class="car-description">
+  <p class="model-name">mercedes-benz C-class 2015</p>
+  <p class="model-price"><s>200,500</s> $150,00</p>
+  <p class="rating"> <span>★</span>
+  <span>★</span>
+  <span>★</span>
+  <span>★</span>
+  <span>★</span>(450 recommends)</p>
+</div>
+<div class="car-list-hover">
+  <div class="star-container">
+<i class="fa fa-star"></i>
+</div>
+  <div class="car-list-hover-cart"><a href=""><i class="fa-solid fa-shopping-cart car-list-cart cart-icon">Add to Cart</i></a></div>
+  <div class="car-list-hover-cart"><a href="contact.html"><i class="fa-solid fas fa-headset car-list-contact">Contact Us</i></a></div>
+  <div class="car-list-details">
+    
+    <a href="#"><i class="fa-brands fa-instagram social-icon instagram-icon"></i></a>
+  <a href="#"><i class="fa-brands fa-facebook social-icon facebook"></i></a>
+  <a href="#" target="_blank">
+    <i class="fa-brands fa-twitter social-icon x"></i></a>
+  </div>
+</div>
+</div>
+<div class="car-list">
+<img src="./Resource/Images/model6.jpg" alt="car">
+<div class="pentagon"><p>-35%</p></div>
+<div class="car-description">
+  <p class="model-name">mercedes-benz C-class 2015</p>
+  <p class="model-price"><s>200,500</s> $150,00</p>
+  <p class="rating"> <span>★</span>
+  <span>★</span>
+  <span>★</span>
+  <span>★</span>
+  <span>★</span>(450 recommends)</p>
+</div>
+<div class="car-list-hover">
+  <div class="star-container">
+<i class="fa fa-star"></i>
+</div>
+  <div class="car-list-hover-cart"><a href=""><i class="fa-solid fa-shopping-cart car-list-cart cart-icon">Add to Cart</i></a></div>
+  <div class="car-list-hover-cart"><a href="contact.html"><i class="fa-solid fas fa-headset car-list-contact">Contact Us</i></a></div>
+  <div class="car-list-details">
+    
+    <a href="#"><i class="fa-brands fa-instagram social-icon instagram-icon"></i></a>
+  <a href="#"><i class="fa-brands fa-facebook social-icon facebook"></i></a>
+  <a href="#" target="_blank">
+    <i class="fa-brands fa-twitter social-icon x"></i></a>
+  </div>
+</div>
+</div>
+<div class="car-list">
+<img src="./Resource/Images/model7.jpg" alt="car">
+<div class="pentagon"><p>-35%</p></div>
+<div class="car-description">
+  <p class="model-name">mercedes-benz C-class 2015</p>
+  <p class="model-price"><s>200,500</s> $150,00</p>
+  <p class="rating"> <span>★</span>
+  <span>★</span>
+  <span>★</span>
+  <span>★</span>
+  <span>★</span>(450 recommends)</p>
+</div>
+<div class="car-list-hover">
+  <div class="star-container">
+<i class="fa fa-star"></i>
+</div>
+  <div class="car-list-hover-cart"><a href=""><i class="fa-solid fa-shopping-cart car-list-cart cart-icon">Add to Cart</i></a></div>
+  <div class="car-list-hover-cart"><a href="contact.html"><i class="fa-solid fas fa-headset car-list-contact">Contact Us</i></a></div>
+  <div class="car-list-details">
+    
+    <a href="#"><i class="fa-brands fa-instagram social-icon instagram-icon"></i></a>
+  <a href="#"><i class="fa-brands fa-facebook social-icon facebook"></i></a>
+  <a href="#" target="_blank">
+    <i class="fa-brands fa-twitter social-icon x"></i></a>
+  </div>
+</div>
+</div>
+<div class="car-list">
+<img src="./Resource/Images/model8.jpg" alt="car">
+<div class="pentagon"><p>-35%</p></div>
+<div class="car-description">
+  <p class="model-name">mercedes-benz C-class 2015</p>
+  <p class="model-price"><s>200,500</s> $150,00</p>
+  <p class="rating"> <span>★</span>
+  <span>★</span>
+  <span>★</span>
+  <span>★</span>
+  <span>★</span>(450 recommends)</p>
+</div>
+<div class="car-list-hover">
+  <div class="star-container">
+<i class="fa fa-star"></i>
+</div>
+  <div class="car-list-hover-cart"><a href=""><i class="fa-solid fa-shopping-cart car-list-cart cart-icon">Add to Cart</i></a></div>
+  <div class="car-list-hover-cart"><a href="contact.html"><i class="fa-solid fas fa-headset car-list-contact">Contact Us</i></a></div>
+  <div class="car-list-details">
+    
+    <a href="#"><i class="fa-brands fa-instagram social-icon instagram-icon"></i></a>
+  <a href="#"><i class="fa-brands fa-facebook social-icon facebook"></i></a>
+  <a href="#" target="_blank">
+    <i class="fa-brands fa-twitter social-icon x"></i></a>
+  </div>
+</div>
+</div>
+<a href="./carModel.html" class="car-model-button">View All Cars</a>
+</section>
+  <!-- sell -->
+<section class="sell-container">
+<div class="text">
+<h2>Do you need to sell a car?</h2>
+Just contact us, give us information about your car, 
+we will help you:
+
+<ul class="seller-list">
+  <br>
+  <li> <div class="circle">
+    <span class="mark">&#10003;</span>
+  </div>
+<p>Free consultation on appropriate purchase and sale value</p></li> <br>
+  <li>
+    <div class="circle">
+    <span class="mark">&#10003;</span>
+  </div>
+    <p>Combine preferential loan packages for customers who buy your car</p></li> <br>
+  <li>
+    <div class="circle">
+    <span class="mark">&#10003;</span>
+  </div><p>Quickly resolve liquidation documents</p></li> <br>
+  <li>
+    <div class="circle">
+    <span class="mark">&#10003;</span>
+  </div><p>100% quick money transfer when the car is sold</p></li>
+</ul>
+
+  <div class="car-list-hover-cart"><a href="./contact.html"><i class="fa-solid fas fa-headset car-list-contact">Contact Us</i></a></div>
+
+</div>
+
+  <img src="./Resource/Images/sellCar.avif" alt="">
+</section>
+<!-- Testimonial -->
+  <section class="Testimonials">
+  <h2 class="underlined-text">Testimonials</h2>
+<div class="Testimonials-wrapper">
+  <div class="sample-testimonial">
+<div class="circle-image">
+  <img src="./Resource/Images/testimonialimage1.jpeg" alt="Image Description">
+</div>
+
+<q>5A's service is really excellent, I bought a car that I like. The service attitude of the staff here is also great. I will come back to buy</q>
+<p class="rating"> <span>★</span>
+  <span>★</span>
+  <span>★</span>
+  <span>★</span>
+  <span>★</span></p>
+<strong><p>Abraham </p></strong><p>Trans Cosmos Sales Director</p>
+  </div>
+
+  <div class="sample-testimonial">
+    <div class="circle-image">
+  <img src="./Resource/Images/tetimonialimage2.jpeg" alt="Image Description">
+</div>
+  <q>
+5A's service is really excellent, I bought a car that I like. The service attitude of the staff here is also great. I will come back to buy!
+  </q>
+ <p class="rating"> <span>★</span>
+  <span>★</span>
+  <span>★</span>
+  <span>★</span>
+  <span>★</span></p>
+<strong><p>Abraham </p></strong><p>Trans Cosmos Sales Director</p> </div>
+
+</div>
+ </section>
+ <!-- partner -->
+
+  <section class="partner-wrapper"> 
+    <h2 class="underlined-text">Our Partners</h2>
+<!-- <a href="#"><img src="./Resource/Images/partner.png" alt="partner" usemap="#partner"> -->
+<img src="./Resource/Images/partner.png" usemap="#image-map">
+<map name="image-map">
+    <area target="_blank" alt="ford" title="ford" href="https://www.ford.com/" coords="2,-1,144,97" shape="rect">
+    <area target="_blank" alt="renualt" title="renualt" href="https://www.renaultgroup.com/en" coords="171,3,302,97" shape="rect">
+    <area target="_blank" alt="toyota" title="toyota" href="https://www.toyota.com/" coords="319,6,460,95" shape="rect">
+    <area target="_blank" alt="astonmartin" title="astonmartin" 
+    href="https://www.astonmartin.com/en" coords="481,1,636,95" shape="rect">
+    <area target="_blank" alt="renault" title="renault" href="https://www.renaultgroup.com/en" coords="645,2,782,96" shape="rect">
+    <area target="_blank" alt="chrysler" title="chrysler" href="https://www.chrysler.com/" coords="798,1,936,94" shape="rect">
+</map>
+</a>
+
+  </section>
+  <!-- Gallery -->
+   <section class="gallery-wrapper">
+    <a href="#"><img src="./Resource/Images/Gallery.png" alt="car"></a>
+    
+   </section>
+   <!-- let discuss -->
+    <section class="contact-wrapper">
+      <div class="discuss">
+<h2>let's discuss on something cool together</h2>
+
+<a href="#"><i class="fa fa-envelope" aria-hidden="true"></i>Example@email.com </a><br>
+<button><i class="fa fa-phone" aria-hidden="true"></i> +2519 235689875</button> <br>
+<a href="#"><i class="fa-solid fa-location-dot location-icon"></i> addis Ababa </a><br>
+<div class="social-media">
+<a href="#"><i class="fa-brands fa-instagram social-icon instagram-icon"></i></a>
+  <a href="#"><i class="fa-brands fa-facebook social-icon facebook"></i></a>
+  <a href="#" target="_blank">
+    <i class="fa-brands fa-twitter social-icon x"></i></a>
+  <a href="#" target="_blank">
+    <i class="fa-brands fa-linkedin social-icon x"></i></a>
+</div>
+</div>
+<form action="#">
+  <fieldset>
+    <button class="contact-button">service</button>
+    <button  class="contact-button">Model</button>
+    <button class="contact-button">complains</button>
+    <button class="contact-button">Equiry</button>
+    <button class="contact-button">other</button>
+    <br>
+    <input class="contact-input" type="text" name="name" placeholder="your name"><br>
+    <input class="contact-input"  type="email" name="email" placeholder="your email"><br>
+    <input class="contact-input"  type="message" name="message" placeholder="your message"><br>
+    <input class="contact-button" type="submit" value="Send message">
+    
+  </fieldset>
+</form>
+    </section>
+     <!-- footer -->
+      <footer class="footer-wrapper">
+        <div class="above-footer">
+        <article>
+<h2>Join 5ACar</h2>
+<p>Receive pricing updates, shopping tips & more!</p>
+        </article>
+        <a href="./scheduleTextDrive.html"><button class="contact-button schedule-button">Schedule a
+test drive</button></a> <br> <br>
+<form action="./signUp.html">
+  <fieldset>
+ <input class="contact-button buttom-email" type="text" placeholder="Your email address">
+ <input class="contact-button schedule-button buttom-signup" type="submit" name="signUp" id="signUp" value="sign up">
+  </fieldset>
+</form>
+      </div>
+<nav class="footer-nav">
+  <ul class="menu-container">
+    <b>Quick Links</b> 
+    <i class="small-block fas fa-bars menu-icon"></i>
+    <ul class="small-hidden">
+    <a href="./contact.html"><li>Get in Touch</li></a>
+    <a href="./contact.html"><li>Help center</li></a>
+    <a href="./contact.html"><li>Live chat</li></a>
+    </ul>
+  </ul>
+  
+  <ul>
+    <b>Our Brands</b>
+    <i class="small-block fas fa-bars menu-icon"></i>
+    <ul class="small-hidden">
+    <a href="#"><li>Toyota</li></a>
+    <a href="#"><li>Porsche</li></a>
+    <a href="#"><li>Audi</li></a>
+     <a href="#"><li>BMW</li></a>
+      <a href="#"><li>Ford</li></a>
+       <a href="#"><li>Nissan</li></a>
+        <a href="#"><li>Peugeot</li></a>
+         <a href="#"><li>Volkswagen</li></a>
+         </ul>
+  </ul>
+  <ul>
+    <b>Vehicles Type</b>
+    <i class="small-block fas fa-bars menu-icon"></i>
+    <ul class="small-hidden">
+    <a href="#"><li>Sedan</li></a>
+    <a href="#"><li>Hatchback</li></a>
+    <a href="#"><li>SUV</li></a>
+     <a href="#"><li>Hybrid</li></a>
+      <a href="#"><li>Electric</li></a>
+       <a href="#"><li>Cuope</li></a>
+        <a href="#"><li>Truck</li></a>
+         <a href="#"><li>Convertible</li></a>
+         </ul>
+  </ul>
+  <ul>
+    <b>Company</b>
+    <i class="small-block fas fa-bars menu-icon"></i> 
+    <ul class="small-hidden">
+    <a href="./aboutUs.html"><li>About Us</li></a>
+    
+    <a href="./service.html"><li>Services</li></a>
+     <a href="#"><li>FAQS</li></a>
+      <a href="./termAndConditions.html"><li>Terms</li></a>
+       <a href="./contact.html"><li>Contact Us</li></a>
+       </ul>
+  </ul>
+  <ul>
+    <b>Contact With Us</b>
+    <div class="social-media">
+<a href="#"><i class="fa-brands fa-instagram social-icon instagram-icon"></i></a>
+  <a href="#"><i class="fa-brands fa-facebook social-icon facebook"></i></a>
+  <a href="#" target="_blank">
+    <i class="fa-brands fa-twitter social-icon x"></i></a>
+  <a href="#" target="_blank">
+    <i class="fa-brands fa-linkedin social-icon x"></i></a>
+</div>
+  </ul>
+</nav>
+<div class="above-footer">
+  <p>
+    &copy; G3cardealer.com. All rights reserved.
+  </p>
+  <p>
+<a href="./termAndConditions.html">term & Conditions. Privacy Notice</a>
+  </p>
+</div>
+</footer>
+      <!--  -->
+  <div class="dropdown-content">
+  <p>Hello World!</p>
+  </div>
+
+      <!--  -->
+
+<script src="./JavaScript/script.js"></script>
+</body>
+</html>
