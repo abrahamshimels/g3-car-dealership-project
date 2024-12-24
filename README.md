@@ -26,4 +26,8 @@ may have.
 ## 5.Review and testimonials page
 ## 6. Built-in Dealership Blog:
 Since blogging is a proven and cost-effective way to improve search engine optimization (SEO) and bring more traffic to a website, it will
+<<<<<<< HEAD
 be a feature of the site.
+=======
+be a feature of the site.
+>>>>>>> 1dbc5fa7b270f84a7fb2b9c6b9a42d15001060df
