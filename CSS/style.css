@@ -653,6 +653,77 @@ footer form {
 .page-header {
   margin-top: 60px;
 }
+.blog-container {
+  max-width: 80%;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.blog-post {
+  padding: 1rem;
+}
+
+.blog-post h1 {
+  font-size: 2rem;
+  color: #ff6600;
+  margin-bottom: 1rem;
+}
+
+.blog-meta {
+  font-size: 0.9rem;
+  color: #6c757d;
+  margin-bottom: 1rem;
+}
+
+.blog-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+}
+
+.image-caption {
+  font-size: 0.85rem;
+  color: #6c757d;
+  margin-bottom: 1.5rem;
+}
+
+.blog-content h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.bonus-tip {
+  color: #d9534f;
+  font-weight: bold;
+}
+
+.cta {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #e9ecef;
+  border-left: 4px solid #007bff;
+  border-radius: 5px;
+}
+
+.cta h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.cta a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.cta a:hover {
+  text-decoration: underline;
+}
 
 /*  drop*/
 .dropdown {
