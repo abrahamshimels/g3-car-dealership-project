@@ -190,7 +190,7 @@ label {
   position: relative;
   background-color: #cfdaf0;
   margin: 10px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(132, 132, 132);
 }
 .car-list img {
   width: 100%;
@@ -198,6 +198,7 @@ label {
   position: relative;
   z-index: 1;
 }
+
 .pentagon {
   position: absolute;
   top: 10px;
@@ -216,8 +217,8 @@ label {
   left: 0;
   right: 0;
   background-color: rgba(0, 0, 0, 0.5);
-  z-index: 2;
-  overflow: hidden;
+  z-index: 1;
+  overflow:hidden;
   width: 100%;
   height: 0;
   transition: 0.5s ease;
@@ -315,7 +316,6 @@ s {
   bottom: 0;
   height: 100%;
 }
-
 
 .sell-container {
   background-color: rgb(70, 70, 70);
@@ -681,7 +681,7 @@ border-radius: 20px ;
   justify-content: space-evenly;
 }
 
-.model-header h2{
+.car_type{
   color: #ff2424;
   text-align: center;
 }
@@ -697,21 +697,64 @@ border-radius: 20px ;
   inherits: false;
 }
 
-.green-yellow {
-  animation: counter 2s forwards ease-in-out;
+.no-of-client {
+  animation: counterClients 2s forwards ease-in-out;
   counter-reset: num var(--num);
   font: 800 40px system-ui;
   padding: 2rem;
 }
-.green-yellow::after {
+.no-of-client::before {
   content: counter(num);
 }
 
-@keyframes counter {
+@property --nums {
+  syntax: "<integer>";
+  initial-value: 0;
+  inherits: false;
+}
+
+.no-of-car {
+  animation: counterCars 2s forwards ease-in-out;
+  counter-reset: nums var(--nums);
+  font: 800 40px system-ui;
+  padding: 2rem;
+}
+.no-of-car::before {
+  content: counter(nums);
+}
+.experience-year {
+  animation: counterCarss 2s forwards ease-in-out;
+  counter-reset: nums var(--nums);
+  font: 800 40px system-ui;
+  padding: 2rem;
+}
+.experience-year::before {
+  content: counter(nums);
+}
+
+@keyframes counterClients {
   from {
     --num: 0;
   }
   to {
-    --num: 100;
+    --num: 900;
+  }
+}
+
+@keyframes counterCars {
+  from {
+    --nums: 0;
+  }
+  to {
+    --nums: 500;
+  }
+}
+
+@keyframes counterCarss {
+  from {
+    --nums: 0;
+  }
+  to {
+    --nums: 10;
   }
 }
