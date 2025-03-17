@@ -24,10 +24,4 @@ The website will have a contact us page where potential buyers
 can get in touch with the seller to make an appointment or ask any questions they
 may have.
 ## 5.Review and testimonials page
-## 6. Built-in Dealership Blog:
-Since blogging is a proven and cost-effective way to improve search engine optimization (SEO) and bring more traffic to a website, it will
-<<<<<<< HEAD
-be a feature of the site.
-=======
-be a feature of the site.
->>>>>>> 1dbc5fa7b270f84a7fb2b9c6b9a42d15001060df
+## 6. Built-in Dealership Blog
