@@ -6,7 +6,7 @@ if(!isset($_SESSION['username'])){
   exit();
 }
 ?>
-<!-- php -->
+
 <?php
 // Form validation and sanitization
 $usernameErr = $emailErr = $phoneErr = $dateErr = $carIdErr = '';
